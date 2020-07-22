@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header .menu-bar {
+	background: #fff;
+	width: 100%;
+	/*position: fixed;*/
+	
+	z-index: 99;
+	top: 0;
+	padding: 0 2.25rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	
+}
+
+header .menu-bar .menu-principal .logo {
+	
+	max-width: 3.125rem;
+	
+}
+
+header .menu-bar .menu-principal a {
+	
+	padding: 0 0.5625rem;
+	text-decoration: none;
+}
+
+header .menu-bar .top-red a {
+	
+	text-decoration: none;
+}
+
+
+
+
+.container {
+	width: 1700px;
+	height: 500px;
+	margin: auto;
+	background-color: #F4EAE9;
+	
+
+}
+
+.container h3 {
+
+	text-align: center;
+	font-size: 2.375rem;
+	margin:auto;
+	
+}
+
+.container h6 {
+	font-size: 1.150rem;
+	text-align: center;
+	padding: 5px 10px;
+}
+
+.container p {
+	font-size: 0.880rem;
+	text-align: center;
+	padding: 5px 10px;
+}
