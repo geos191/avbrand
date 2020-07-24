@@ -27,9 +27,10 @@ header .menu-bar .menu-principal .logo {
 }
 
 header .menu-bar .menu-principal a {
-	
+	font-family: 'Dancing Script', cursive;
 	padding: 0 0.5625rem;
 	text-decoration: none;
+	font-size: 1.550rem;
 }
 
 header .menu-bar .top-red a {
@@ -40,31 +41,75 @@ header .menu-bar .top-red a {
 
 
 
-.container {
-	width: 1700px;
+#presentacion {
+	/*width: 1080px;*/
 	height: 500px;
-	margin: auto;
+	margin: 5px 20px;
 	background-color: #F4EAE9;
-	
+	display: block;
 
 }
 
 .container h3 {
-
+	font-family: 'Dancing Script', cursive;
 	text-align: center;
-	font-size: 2.375rem;
+	font-size: 3.375rem;
 	margin:auto;
+	padding: 20px;
 	
 }
 
 .container h6 {
-	font-size: 1.150rem;
+
+	font-size: 2.150rem;
+	text-align: center;
+	padding: 5px 10px;
+	padding: 20px;
+}
+
+.container p {
+	font-size: 1.380rem;
 	text-align: center;
 	padding: 5px 10px;
 }
 
-.container p {
-	font-size: 0.880rem;
-	text-align: center;
-	padding: 5px 10px;
+#conoceme {
+	font-family: 'Amatic SC', cursive;
+	background-color: #F4EAE9;
+	height: 500px;
+	margin: 5px 20px;
+	display: block;
+
+}
+
+#cita {
+	font-family: 'Dancing Script', cursive;
+	background-color: #F4EAE9;
+	height: 500px;
+	margin: 5px 20px;
+	display: block;
+}
+
+#presentacion {
+	font-family: 'Dancing Script', cursive;
+	background-color: #F4EAE9;
+	height: 500px;
+	margin: 5px 20px;
+	display: block;
+}
+
+
+
+footer {
+	background-color: #c29b9d;
+	height: 80px;
+	justify-content: space-between;
+	align-items: center;	
+	display: flex;
+	padding: 50px;
+}
+
+.bottom-red a {
+
+	text-decoration: none;
 }
