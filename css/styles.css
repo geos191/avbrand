@@ -16,7 +16,6 @@ header .menu-bar {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-
 	
 }
 
@@ -27,33 +26,29 @@ header .menu-bar .menu-principal .logo {
 }
 
 header .menu-bar .menu-principal a {
-	font-family: 'Dancing Script', cursive;
+	font-family: 'Abril Fatface', cursive;
 	padding: 0 0.5625rem;
 	text-decoration: none;
-	font-size: 1.550rem;
+	font-size: 1.250rem;
+	color: black;
 }
 
 header .menu-bar .top-red a {
 	
 	text-decoration: none;
+
 }
 
-
-
-
-#presentacion {
-	/*width: 1080px;*/
+.container {
+	width: 98%;
 	height: 500px;
-	margin: 5px 20px;
-	background-color: #F4EAE9;
-	display: block;
-
+	margin: 5px 20px;	
 }
 
 .container h3 {
-	font-family: 'Dancing Script', cursive;
+	font-family: 'Abril Fatface', cursive;
 	text-align: center;
-	font-size: 3.375rem;
+	font-size: 2.475rem;
 	margin:auto;
 	padding: 20px;
 	
@@ -61,55 +56,104 @@ header .menu-bar .top-red a {
 
 .container h6 {
 
-	font-size: 2.150rem;
+	font-size: 1.550rem;
 	text-align: center;
 	padding: 5px 10px;
-	padding: 20px;
+	
 }
 
 .container p {
-	font-size: 1.380rem;
+	font-size: 1.180rem;
 	text-align: center;
 	padding: 5px 10px;
 }
 
+#presentacion {
+	
+	background-color: #F4EAE9;
+	display: flex;
+	align-items: center;
+
+}
+
+div .image{
+	width: 40%;
+	height: 450px;
+	background-color: #c29b9d;
+}
+
+#servicios {
+
+	font-family: 'Abril Fatface', cursive;
+	height: 500px;
+	
+
+
+}
+
+
+
+div .service {
+	width: 15%;
+	height: 60%;
+	background-color: #c29b9d;
+	display: inline-block;
+
+}
+
+
+
 #conoceme {
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Abril Fatface', cursive;
 	background-color: #F4EAE9;
 	height: 500px;
-	margin: 5px 20px;
-	display: block;
-
+	
+	
 }
 
 #cita {
-	font-family: 'Dancing Script', cursive;
-	background-color: #F4EAE9;
+	font-family: 'Abril Fatface', cursive;
 	height: 500px;
-	margin: 5px 20px;
-	display: block;
+	
+	
 }
 
-#presentacion {
-	font-family: 'Dancing Script', cursive;
+#client {
 	background-color: #F4EAE9;
+	font-family: 'Abril Fatface', cursive;
 	height: 500px;
-	margin: 5px 20px;
-	display: block;
+	
+	
+}
+
+#letter {
+	font-family: 'Abril Fatface', cursive;
+	height: 500px;
+	
+	
+}
+
+#ig-red {
+	background-color: #F4EAE9;
+	font-family: 'Abril Fatface', cursive;
+	height: 500px;
+	
+	
 }
 
 
 
 footer {
+	font-family: 'Abril Fatface', cursive;
 	background-color: #c29b9d;
 	height: 80px;
 	justify-content: space-between;
 	align-items: center;	
 	display: flex;
 	padding: 50px;
+	font-size: 0.975rem;
 }
 
 .bottom-red a {
-
 	text-decoration: none;
 }
