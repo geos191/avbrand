@@ -80,15 +80,14 @@ div .image{
 	width: 40%;
 	height: 450px;
 	background-color: #c29b9d;
+	margin: 30px;
 }
 
 #servicios {
 
 	font-family: 'Abril Fatface', cursive;
 	height: 500px;
-	
-
-
+	text-align: center;
 }
 
 
@@ -98,7 +97,7 @@ div .service {
 	height: 60%;
 	background-color: #c29b9d;
 	display: inline-block;
-
+	margin: 30px;
 }
 
 
@@ -106,24 +105,47 @@ div .service {
 #conoceme {
 	font-family: 'Abril Fatface', cursive;
 	background-color: #F4EAE9;
-	height: 500px;
-	
-	
+	height: 700px;
+	text-align: right;	
+}
+
+ #img-quiensoy{
+	width: 50%;
+	height: 55%;
+	background-color: #c29b9d;
+	display: inline-block;
+	margin: 30px;
 }
 
 #cita {
 	font-family: 'Abril Fatface', cursive;
 	height: 500px;
+	text-align: center;
+
 	
-	
+}
+
+#comillas{
+	width: 70px;
+	height: 80px;
+	display: inline-block;
+	margin: 40px;
 }
 
 #client {
 	background-color: #F4EAE9;
 	font-family: 'Abril Fatface', cursive;
 	height: 500px;
-	
-	
+	text-align: center;
+}
+
+.clients{
+	width: 12%;
+	height: 40%;
+	background-color: #c29b9d;
+	display: inline-block;
+	margin: 30px;
+	border-radius: 100%;
 }
 
 #letter {
