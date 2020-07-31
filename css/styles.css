@@ -70,7 +70,7 @@ header .menu-bar .top-red a {
 
 #presentacion {
 	height: 800px;
-	background-color: #F4EAE9;
+	
 	display: flex;
 	position: relative;
 }
@@ -111,6 +111,7 @@ header .menu-bar .top-red a {
 #servicios {
 
 	font-family: 'Abril Fatface', cursive;
+	background-color: #F4EAE9;
 	height: 500px;
 	text-align: center;
 }
@@ -129,7 +130,7 @@ div .service {
 
 #conoceme {
 	font-family: 'Abril Fatface', cursive;
-	background-color: #F4EAE9;
+	
 	height: 700px;
 	text-align: right;	
 }
@@ -146,6 +147,7 @@ div .service {
 	font-family: 'Abril Fatface', cursive;
 	height: 500px;
 	text-align: center;
+	background-color: #F4EAE9;
 
 	
 }
@@ -158,7 +160,7 @@ div .service {
 }
 
 #client {
-	background-color: #F4EAE9;
+	
 	font-family: 'Abril Fatface', cursive;
 	height: 500px;
 	text-align: center;
@@ -176,12 +178,12 @@ div .service {
 #letter {
 	font-family: 'Abril Fatface', cursive;
 	height: 500px;
-	
+	background-color: #F4EAE9;
 	
 }
 
 #ig-red {
-	background-color: #F4EAE9;
+	
 	font-family: 'Abril Fatface', cursive;
 	height: 500px;
 	
