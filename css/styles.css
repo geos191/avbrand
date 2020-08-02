@@ -129,17 +129,40 @@ div .service {
 
 #conoceme {
 	font-family: 'Abril Fatface', cursive;
+	height: 900px;
+	text-align: right;
 	
-	height: 700px;
-	text-align: right;	
 }
 
- #img-quiensoy{
-	width: 50%;
-	height: 55%;
-	background-color: #c29b9d;
+ #ann4 {	
+	position: relative;
 	display: inline-block;
-	margin: 30px;
+	width: 350px ;
+	height: auto;
+	margin: 0px 53px;
+	left: 90px;
+	margin-bottom: 50px;
+	border-radius: 100%;
+	z-index: 70;
+}
+
+#img4 {
+		max-width: 100%;
+		height: auto;
+		border-radius: 100%;
+}
+
+#mancha2 {
+	position: relative;
+	display: inline-block;
+	top: 60px;
+	width: 410px;
+	right: 340px;
+	z-index: 50;
+}
+
+#mancha {
+	max-width: 100%;
 }
 
 #cita {
@@ -189,6 +212,39 @@ div .service {
 	
 }
 
+#contenedor_formulario {
+	background: #F4EAE9;
+	text-align: center;
+	height: 600px;
+}
+
+#formulario {
+	background: #c29b9d;
+	position: relative;
+	margin: auto;
+	width: 30%;
+	height: 50%;
+	text-align: center;
+	border-radius: 20px;
+	padding: 30px;
+}
+
+label {
+	display: block;
+	text-align: left;
+}
+
+input, textarea  {
+	width: 80%;
+	padding: 8px;
+	outline: none;
+}
+
+textarea{
+	resize: vertical;
+	max-height: 80px;
+	min-height: 50px;
+}
 
 
 footer {
@@ -205,3 +261,4 @@ footer {
 .bottom-red a {
 	text-decoration: none;
 }
+
