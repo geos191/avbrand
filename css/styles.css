@@ -167,10 +167,9 @@ div .service {
 
 #cita {
 	font-family: 'Abril Fatface', cursive;
-	height: 500px;
+	height: 400px;
 	text-align: center;
 	background-color: #F4EAE9;
-
 	
 }
 
@@ -188,14 +187,7 @@ div .service {
 	text-align: center;
 }
 
-.clients{
-	width: 12%;
-	height: 40%;
-	background-color: #c29b9d;
-	display: inline-block;
-	margin: 30px;
-	border-radius: 100%;
-}
+
 
 #letter {
 	font-family: 'Abril Fatface', cursive;
@@ -204,13 +196,7 @@ div .service {
 	
 }
 
-#ig-red {
-	
-	font-family: 'Abril Fatface', cursive;
-	height: 500px;
-	
-	
-}
+
 
 #contenedor_formulario {
 	background: #F4EAE9;
@@ -262,3 +248,17 @@ footer {
 	text-decoration: none;
 }
 
+
+
+.clients {
+
+display: inline-block;
+margin: 100px
+
+}
+
+#imgClient {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
